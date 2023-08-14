@@ -23,7 +23,7 @@ const Welcome = (props) => (
         <div className={styles.cont}>
           <img
             className={styles.selfie}
-            src="/images/selfie.png"
+            src="/images/selfie.jpg"
             alt="셀프사진"
             loading="lazy"
           />

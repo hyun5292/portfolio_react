@@ -27,7 +27,7 @@
     {
       "fileNum": 3,
       "fileName": "스마트한 추적 놀이(Smart-Tracking-Game)",
-      "fileImg": ["/images/continue.png"],
+      "fileImg": ["/images/smart_game.png"],
       "fileGithub": "https://github.com/hyun5292/smart-tracking-game",
       "fileLan": "React",
       "fileTool": "VSCode",
