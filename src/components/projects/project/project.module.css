@@ -67,9 +67,6 @@
 .imgCont::-webkit-scrollbar {
   display: none;
 }
-.imgItem {
-  scroll-snap-align: start;
-}
 
 .explain {
   position: absolute;

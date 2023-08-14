@@ -30,7 +30,11 @@ const Project = ({ file }) => {
           <a href={fileLink}>{fileLink}</a>
         </p>
       </div>
-      <div ref={imgContRef} className={styles.imgCont} onClick={offExplain}>
+      <div
+        ref={imgContRef}
+        className={styles.imgCont}
+        onClick={() => offExplain()}
+      >
         <div ref={explainRef} className={styles.explain}>
           <p>이미지를 클릭 후 스크롤 해주세요</p>
           <HiChevronDoubleDown className={styles.explain_icon} />
