@@ -1,4 +1,4 @@
-@value sudolWhite, sudolGreen, sudolOrange, sudolYellow, sudolDarkGrey, borderGrey from '../../common/colors.css';
+@value sudolDarkGrey, sudolWhite, sudolGreen, sudolOrange, sudolYellow, sudolDarkGrey, borderGrey from '../../common/colors.css';
 
 .welcome {
   color: sudolDarkGrey;
@@ -122,7 +122,16 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+  .card_border:hover {
+    background-color: sudolWhite;
+    transition: none;
+  }
+  .card_border:hover .gitLink {
+    color: sudolDarkGrey;
+    border-bottom: 1px solid sudolDarkGrey;
+  }
+
   .cont {
     flex-direction: column;
   }

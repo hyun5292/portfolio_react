@@ -55,7 +55,9 @@ const Project = ({ file }) => {
       </div>
       <div className={styles.infoCont}>
         <p className={styles.infoItem}>
-          <b>깃허브:</b>&nbsp;<a href={fileGithub}>{fileGithub}</a>
+          <b>깃허브:</b>
+          <br />
+          <a href={fileGithub}>{fileGithub}</a>
         </p>
         <p className={styles.infoItem}>
           <b>사용언어:</b>&nbsp;{fileLan}

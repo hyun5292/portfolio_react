@@ -125,3 +125,15 @@
     height: 50vh;
   }
 }
+
+@media (max-width: 500px) {
+  .project p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 460px) {
+  .project p:first-child {
+    font-size: 0.7rem;
+  }
+}

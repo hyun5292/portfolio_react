@@ -28,32 +28,25 @@ const Skills = (props) => (
             <AiFillHtml5 className={`${styles.icon} ${styles.html}`} />
             <div className={styles.icon_info}>
               <span className={styles.info_title}>html</span>
-              <p className={styles.info_cont}>
-                눈에 잘 들어오고 효율적인 사이트를 만들려고 노력하고 있습니다.
-              </p>
             </div>
           </div>
           <div className={styles.icon_item}>
             <FaCss3Alt className={`${styles.icon} ${styles.css}`} />
+            <div className={styles.icon_info}>
+              <span className={styles.info_title}>css</span>
+            </div>
           </div>
           <div className={styles.icon_item}>
             <DiJavascript className={`${styles.icon} ${styles.js}`} />
-          </div>
-          <div className={styles.icon_item}>
-            <DiJqueryLogo className={`${styles.icon} ${styles.jquery}`} />
+            <div className={styles.icon_info}>
+              <span className={styles.info_title}>javascript</span>
+            </div>
           </div>
           <div className={styles.icon_item}>
             <FaReact className={`${styles.icon} ${styles.react}`} />
             <div className={styles.icon_info}>
               <span className={styles.info_title}>react</span>
-              <p className={styles.info_cont}>
-                최근 유행하는 기술들 중에서 React를 선택했습니다. useState,
-                Hooks 등 어려운 개념들이 많지만 끊임없이 공부하고 있습니다.
-              </p>
             </div>
-          </div>
-          <div className={styles.icon_item}>
-            <SiPostcss className={`${styles.icon} ${styles.postcss}`} />
           </div>
           <div className={styles.icon_item}>
             <div className={`${styles.icon} ${styles.scss}`}>
@@ -61,11 +54,6 @@ const Skills = (props) => (
             </div>
             <div className={styles.icon_info}>
               <span className={styles.info_title}>scss</span>
-              <p className={styles.info_cont}>
-                개인적으로 일반 CSS보다는 SCSS 구조가 더 마음에 들었습니다. 파일
-                정리를 해도 구조적으로 잡는데 SCSS는 HTML 구조대로 정리할 수
-                있어서 직관적으로 이해하기 더 쉽다고 생각합니다.
-              </p>
             </div>
           </div>
         </div>
@@ -90,7 +78,7 @@ const Skills = (props) => (
               <span className={styles.info_title}>mariadb</span>
               <p className={styles.info_cont}>
                 프로젝트 DB를 주로 MariaDB로 제작했습니다. SQL은 테이블을 만들고
-                데이터를 입력, 수정, 삭제할 정도로 사용 가능하고 DAO, DTO에 대해
+                데이터를 입력, 수정, 삭제할 정도로 사용 해봤고 DAO, DTO에 대해
                 이해하고 있습니다.
               </p>
             </div>

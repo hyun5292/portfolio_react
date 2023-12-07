@@ -96,8 +96,11 @@
   .arrow {
     color: sudolOrange;
   }
+  .arrow:hover {
+    color: sudolOrange;
+  }
 
   .arrow_disabled {
-    color: borderGrey;
+    color: borderGrey !important;
   }
 }
